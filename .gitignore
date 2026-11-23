@@ -1,0 +1,6 @@
+._*
+.DS_Store
+/frontend/
+/microservices/
+/libs/
+/terraform/

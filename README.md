@@ -4,6 +4,8 @@ Signal Echo is a project to help people spot online scams, decide what to do nex
 
 This is the root hub for Signal Echo product architecture, engineering documentation, and integration contracts. The application is in development.
 
+See the [full delivery specification](./SPECS-FULL-SIGNAL-ECHO.md) and the [Signal Echo GitHub Project](https://github.com/orgs/Signal-Echo-Security/projects/1).
+
 ## First release
 
 The first release is planned for Spain, with a Spanish-language site that works on mobile. It will start with fake bank notices and fake delivery messages sent by SMS or WhatsApp.
@@ -32,6 +34,22 @@ Signal Echo will also provide a reference workload for Storm Harbor. The first r
 Open an issue and create an issue branch from `develop`. Submit the pull request to `develop` and record validation. A maintainer reviews and merges it manually. Production promotion goes from validated `develop` to `master` in a separate pull request.
 
 Infrastructure changes follow the Terraform repository’s issue-to-`master` workflow and manual apply approval.
+
+## Local workspace
+
+Clone each owner into the workspace checked out from this hub. These directories contain independent repositories and have their own issues and branches.
+
+```sh
+git clone https://github.com/Signal-Echo-Security/hub-signalecho.git
+cd hub-signalecho
+mkdir -p frontend microservices libs terraform
+git clone https://github.com/Signal-Echo-Security/signalecho-app.git frontend/signalecho-app
+git clone https://github.com/Signal-Echo-Security/api-signalecho.git microservices/api-signalecho
+git clone https://github.com/Signal-Echo-Security/signalecho-lib-contracts.git libs/signalecho-lib-contracts
+git clone https://github.com/Signal-Echo-Security/signalecho-terraformer.git terraform/signalecho-terraformer
+```
+
+Build the contracts library first, then follow the instructions in the app or API repository.
 
 ## Contributing
 
