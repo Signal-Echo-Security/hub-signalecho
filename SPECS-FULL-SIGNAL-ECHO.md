@@ -65,8 +65,8 @@ Match the 25 locale distinctions in the Harbor Lens catalog. Use RTL for `ar`, `
 ### 1. Workspace and executable foundations
 
 - Set up repositories, project metadata, branch protections and local checkouts.
-- Deliver the web frontend first for review. Include the first React page, shared locale contract and RTL behavior. Keep the preview free of sign-in prompts, reporting forms and analytics.
-- Use the web review to confirm navigation and product language before publishing backend and Android implementation work. Then qualify the NestJS hexagonal composition, health and readiness endpoints and the Tauri shell.
+- Deliver a navigable web prototype first. Review the navigation menu, synthetic message check, browser-only printable police report, simulated community submission, sample alert and sharing preview, and official reporting links. Keep every form in browser memory and verify all 25 locales and RTL.
+- Use the web prototype review to confirm navigation and product language before publishing backend and Android implementation work. Then qualify the NestJS hexagonal composition, health and readiness endpoints and the Tauri shell.
 - Exit evidence for the initial web review: production web build, package checks, exact Harbor Lens locale parity and a local preview. Native packaging and service integration have their own validation gates.
 
 ### 2. Anonymous check and official guidance
@@ -75,6 +75,14 @@ Match the 25 locale distinctions in the Harbor Lens catalog. Use RTL for `ar`, `
 - Ask Maya for explained signs with uncertainty and safe structured results. When Maya is unavailable, show the reviewed next steps. Avoid definitive fraud verdicts based solely on model output.
 - Maintain source-linked official Spanish guidance for a suspicion, credentials shared, and money already sent. Record source, jurisdiction, review date and owner.
 - Exit evidence: safe guidance works during an AI outage. Synthetic cases demonstrate redaction, bounded inputs, source links and no retention for anonymous checks.
+
+### First reporting slice
+
+1. Let a person prepare a factual private draft without an account. Format the description, approximate time and evidence list in a printable template for Spanish reporting channels. Keep the draft in browser memory and let the person choose to print or save a PDF.
+2. Link to INCIBE guidance and the official routes of Policía Nacional and Guardia Civil. The individual selects the right channel and checks its official reporting requirements.
+3. Accept an independent, deliberately submitted scam-pattern summary for moderation. Reject common direct identifiers and keep pending content outside the public projection. Never prefill the public form from the private draft.
+4. Let a moderator edit and approve the public summary or reject the submission. Publish only the reviewed summary and scam category, and provide a shareable link. Evaluate geographic aggregates later, with voluntary region, sufficient counts and a clear label that the map represents received reports.
+5. In the initial web prototype, the example analysis and moderation steps are explicitly simulated with in-page state. The printable draft and external official links work immediately. After validating the workflow, deliver the moderation queue and authorized Maya context separately. Keep the police draft out of both.
 
 ### 3. Personal sessions and private cases
 
@@ -116,3 +124,5 @@ Match the 25 locale distinctions in the Harbor Lens catalog. Use RTL for `ar`, `
 - [GDPR, including Recital 26 and Articles 5 and 25](https://eur-lex.europa.eu/eli/reg/2016/679)
 - [AEPD data protection by default](https://www.aepd.es/derechos-y-deberes/cumple-tus-deberes/medidas-de-cumplimiento/proteccion-de-datos-por-defecto)
 - [AEPD on anonymized information](https://www.aepd.es/preguntas-frecuentes/0-conceptos-basicos/FAQ-0005-sobre-los-datos-anonimizados)
+- [Policía Nacional reporting portal](https://denuncias.policia.es/)
+- [Guardia Civil reporting guidance](https://web.guardiacivil.es/es/tramites/denuncias/index.html)

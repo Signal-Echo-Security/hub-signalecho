@@ -37,7 +37,7 @@ Signal Echo is maintained by Signal Echo Security. The first release focuses on 
 
 - Treat pasted messages and incident reports as untrusted input. Keep quick checks ephemeral by default. Before sending text to Maya, minimize it and remove identifying details when possible. Keep report contents, credentials, and personal data out of telemetry and public fixtures.
 - Use Maya as a consultative integration. Explain the signs that support an assessment and make uncertainty explicit. Keep reviewed guidance and links to official channels available independently.
-- Keep incident reports private. Tell the user when an export is prepared for use with a formal reporting channel.
+- Keep the printable police draft private and browser-local. Collect public-facing scam patterns through a deliberate, separate submission. A moderator reviews and edits the summary before publication.
 
 ## Recovery
 
