@@ -4,6 +4,14 @@
 
 Signal Echo is maintained by Signal Echo Security. The first release focuses on Spanish-language guidance for suspected and confirmed online scams in Spain. The first scenarios are fake bank notices and fake delivery messages received by SMS or WhatsApp.
 
+## Product decisions
+
+- The personal experience is the Signal Echo site and Android app, with iOS to follow. It starts with guidance for suspicious bank and delivery messages in Spain.
+- Personal sign-in uses the iot.EraX identity authority and its GitHub, LinkedIn and Google providers. Corporate Signal Echo journeys live in iot.EraX Console with canonical Company scope and entitlements.
+- Review the personal web frontend first. Keep guidance and initial checks anonymous by default. Keep identifiable saved reports private and publish only anonymized patterns.
+- Follow Harbor Lens locale parity and RTL in the user interface. Keep CustomExceptions transport-neutral, use hexagonal backend boundaries and share cross-project contracts through the owned library.
+- The [full Signal Echo specification](./SPECS-FULL-SIGNAL-ECHO.md) owns the delivery plan and integration acceptance criteria. Track owning issues in the [Signal Echo GitHub Project](https://github.com/orgs/Signal-Echo-Security/projects/1).
+
 ## Repository boundaries
 
 - Use `hub-platform` as the reference for root hub architecture, issue-driven delivery, and shared TypeScript conventions. Adopt conventions that suit Signal Echo and keep its configuration and dependencies independently maintainable.
